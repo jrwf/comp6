@@ -1,0 +1,23 @@
+{
+    "name": "wolf/comp6",
+    "description": "Zkusebni composer.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "jrwf\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jiří Wolf",
+            "email": "jiri.wolf@jw.cz"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "nette/robot-loader": "^4.0",
+        "guzzlehttp/guzzle": "^7.5",
+        "phpmailer/phpmailer": "^6.8"
+    }
+}
